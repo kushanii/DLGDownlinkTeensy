@@ -87,7 +87,7 @@ void loop()
 		Serial.print(",");
 		//print date and time
 		char dateTimeStr[18];
-		sprintf(dateTimeStr, "%02u%02u%04u,%02u:%02u:%02u", gps.getDay(), gps.getMonth(), gps.getYear() + 2000, gps.getHour(), gps.getMinute(), gps.getSecond());
+		sprintf(dateTimeStr, "%02u%02u%04u,%02u%02u%02u", gps.getDay(), gps.getMonth(), gps.getYear() + 2000, gps.getHour(), gps.getMinute(), gps.getSecond());
 		Serial.print(dateTimeStr); // Date (year - need to add 2000, month, day) and time (hour, minute, second)
 		
 		//print GPS latitude,longtitude,altitude, and course

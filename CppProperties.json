@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "name": "Visual Micro",
+      "intelliSenseMode": "msvc-x64",
+      "includePath": [
+        "${projectRoot}..\\DLGDownlinkTeensy",
+        "${projectRoot}..\\..\\..\\Documents\\Arduino\\libraries\\FrSkySportTelemetry",
+        "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\libraries\\SoftwareSerial",
+        "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\libraries",
+        "${projectRoot}..\\..\\..\\Documents\\Arduino\\libraries",
+        "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\libraries",
+        "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\cores\\teensy3",
+        "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\cores\\teensy3\\avr",
+        "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\cores\\teensy3\\util",
+        "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\cores\\teensy3\\utils",
+        "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\teensy\\avr\\cores\\teensy3\\avr",
+        "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\tools\\arm\\arm-none-eabi\\include",
+        "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\teensy"
+      ],
+      "defines": [
+        "__HARDWARE_MKl26z64__",
+        "__HARDWARE_MKL26Z64__",
+        "__MKL26Z64__",
+        "TEENSYDUINO=141",
+        "ARDUINO=10805",
+        "F_CPU=48000000",
+        "USB_SERIAL",
+        "LAYOUT_US_ENGLISH",
+        "__cplusplus=201103L",
+        "_VMICRO_INTELLISENSE"
+      ]
+    }
+  ]
+}
